@@ -1,0 +1,172 @@
+
+
+.button{
+  display:inline-block;
+  background-color: rgba(68, 226, 213, 0.815);
+  padding:8px;
+  border-radius: 10px;
+}
+
+.button a:hover{
+  color:#f7f7f7;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+  li {
+    list-style-type: none;
+    
+    float: right;
+  
+  }
+ 
+  
+  .shop_icon{
+    margin-right: 20px;
+  }
+
+  .acc_icon{
+    margin-right: 10px;
+
+  }
+  li a {
+    
+    margin-right: 20px;
+    text-decoration: none;
+    color: #000000;
+    padding: 8px;
+    
+  }
+
+  .header_right a:hover, .footer a:hover{
+    color:#f7f7f7;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+
+.logo {
+  margin-top: 10%;
+  font-family: Cookie;
+    font-size: 4rem;
+    text-decoration: none;
+    color: #000000;
+}
+
+img {
+    display: block;
+    margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 6px;
+  
+ 
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(30, 121, 113, 0.863);
+    width: 100%;   
+    grid-area: footer;
+    text-decoration: none;
+    color: #000000;
+    
+    padding: 0 2rem;
+    align-items: baseline;
+  }
+
+  
+
+.footer-left, .footer-right {
+    padding: 8px;
+  display: inline-flex;
+    padding: 0.75rem 0;
+    align-items: baseline;
+}
+.social_icon {
+  padding: 0 0 0 1rem;
+  color:#000000;
+  align-items: flex-end;
+}
+
+.footer_link{
+  padding: 0 1.5rem 0 0;
+  text-decoration: none;
+  color:#000000;
+}
+
+.services_cards{
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 30%;
+  
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  border-radius: 10px;
+  justify-content: space-between;
+  justify-items: center;
+  margin: 20px 40px 100px 50px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card a{
+  text-decoration: none;
+  color:rgb(51, 226, 197);
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card a:hover{
+  font-size: 21px;
+  font-weight: bolder;
+  color: rgb(27, 178, 216);
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
